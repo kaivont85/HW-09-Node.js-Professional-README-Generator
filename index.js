@@ -77,7 +77,7 @@ const questions = [
 function goAsk() {
     inquirer.prompt(questions) 
         .then((responses) => {
-            return fs.writeFileSync(path.join("__dirname", "readmeGenerator.md"), readmeTemplate(responses))
+            return fs.writeFileSync(path.join(__dirname, "readmeGenerator.md"), readmeTemplate(responses))
         
             
 
@@ -145,8 +145,10 @@ function readmeTemplate(responses) {
     ${responses.contactInfo}
     
     `)
-    ​
-    }
+
+
+
+}
     
 
 goAsk()
