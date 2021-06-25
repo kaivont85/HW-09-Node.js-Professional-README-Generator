@@ -77,6 +77,7 @@ const questions = [
 function goAsk() {
     inquirer.prompt(questions) 
         .then((responses) => {
+            console.log(responses)
             return fs.writeFileSync(path.join(__dirname, "readmeGenerator.md"), readmeTemplate(responses))
         
             
@@ -84,8 +85,17 @@ function goAsk() {
         })
 }
 
-function readmeTemplate(responses) {
+function badges(badgeType) {
+    if (badgeType !== "NONE") {
+        return  `![Badges] (https://img.shields.io/badge/license-${badgeType}-blue.svg)`   
+    }
+   return ""
+     
+}
 
+
+function readmeTemplate(responses) {
+const license = badges(responses.licenses)
 
     return ( 
     
@@ -124,17 +134,13 @@ function readmeTemplate(responses) {
     ​
     ## License
     
-    ${responses.licenses}
+    ${license}
     ​
     
     ​
     ## Badges
     ​
-    ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-    ​
-    Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-    ​
-    ​
+   
     ​
     ## Tests
     
