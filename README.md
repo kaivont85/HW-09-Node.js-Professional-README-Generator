@@ -1,3 +1,4 @@
 # HW-09-Node.js-Professional-README-Generator
 hello amanda you are the best!
-![Badges] (https://img.shields.io/badge/license-MIT-blue.svg)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)  
+
