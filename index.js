@@ -46,8 +46,8 @@ const questions = [
         type: "list",
         name: "licenses",
         message: "What type of licenses are you using?",
-        choices: ["MIT", "NONE"] 
-        // put in atleast 5
+        choices: ["MIT", "Apache-2.0", "GPL", "BSD-2-Clause", "BSD-3-Clause", "NONE"]   
+    
 
     },
 
@@ -87,7 +87,7 @@ function goAsk() {
 
 function badges(badgeType) {
     if (badgeType !== "NONE") {
-        return  `[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)`   
+        return  `[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/${badgeType})`   
     }
    return ""
      
