@@ -1,9 +1,9 @@
-# k
+# Demo1
     
     ​
     ## Description 
     ​
-    k
+    To see if this works
     ​
     ## Table of Contents
     
@@ -18,22 +18,22 @@
     
     ## Installation
     
-    k
+    installing them correctly
     ​
     
     ## Usage 
     
-    k
+    Carefully with precise measurements
     ​
     ​
     ## Credits
     
-    k
+    the whole world
     ​
     ​
     ## License
     
-    [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/BSD-3-Clause)
+    [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/MIT)
     ​
     
     ​
@@ -43,10 +43,10 @@
     ​
     ## Tests
     
-    k
+    all the good ones
     
     ## Contact Info
     
-    k
+    the treees
     
     
