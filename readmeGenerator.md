@@ -1,9 +1,9 @@
-# Demo1
+# This is Me! 
     
     ​
     ## Description 
     ​
-    To see if this works
+    This app creates a professional ReadMe
     ​
     ## Table of Contents
     
@@ -18,22 +18,22 @@
     
     ## Installation
     
-    installing them correctly
+    just run npm i on the outermost section of this app
     ​
     
     ## Usage 
     
-    Carefully with precise measurements
+    Just run the command, node index.js from the index.js and the this will get the programm to run and you just answer the questions to build yourself a professional Readme
     ​
     ​
     ## Credits
     
-    the whole world
+    me
     ​
     ​
     ## License
     
-    [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/MIT)
+    ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
     ​
     
     ​
@@ -43,10 +43,10 @@
     ​
     ## Tests
     
-    all the good ones
+    none
     
     ## Contact Info
     
-    the treees
+    Github: https://github.com/kaivont85
     
     
