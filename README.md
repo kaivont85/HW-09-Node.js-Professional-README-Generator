@@ -29,5 +29,5 @@ Email: kaivont@gmail.com
 
 ## Video Demo of it working 
 
-![screenshot](/Professional-README-Generator/assets/demoreadmegenerator.gif)
+<img src="assets/demoreadmegenerator.gif" alt="screenshot" style="max-width:100%;">
 
